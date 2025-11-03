@@ -40,3 +40,6 @@ Icon
 
 # Python virtual environment
 .venv/
+
+# IDE settings
+.idea
