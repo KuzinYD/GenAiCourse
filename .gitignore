@@ -45,4 +45,6 @@ Icon
 .idea
 
 # Environment variables file
+.env
+*.env
 .*.env
