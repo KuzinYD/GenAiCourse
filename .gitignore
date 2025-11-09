@@ -43,3 +43,6 @@ Icon
 
 # IDE settings
 .idea
+
+# Environment variables file
+.*.env
