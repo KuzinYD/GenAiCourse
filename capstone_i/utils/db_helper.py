@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, text
 from dotenv import load_dotenv, find_dotenv
-from capstone_i.utils import get_logger
+from .logger_helper import get_logger
 import os
 
 env_file = find_dotenv()
@@ -18,6 +18,7 @@ def ask_database(query):
     try:
         with db_conn.connect() as conn:
             logger.info("Executing SAFE query: %s", safe_query)
+            #raise Exception("Testing LLM error handling")  # For testing error handling
             result = conn.execute(text(safe_query))
             results = result.fetchall()
             logger.info("Query results: %s", results)
