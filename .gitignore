@@ -1,50 +1,66 @@
-# macOS system files
-.DS_Store
-.AppleDouble
-.LSOverride
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
 
-# Icon must end with two \r
-Icon
+# Virtual environments
+venv/
+test_env/
+env/
+ENV/
+.venv/
+.env/
 
+# Environment variables
+.env
+*.env
+.env.*
+!.env.example
 
-# Thumbnails
-._*
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Files that might appear on external disks
-.Spotlight-V100
-.Trashes
-
-# macOS folder attributes
-*.DS_Store
-
-# macOS resource fork
-*.AppleDouble
-
-# macOS metadata files
-.DS_Store
-._*
-
-# macOS system files
+# macOS
 .DS_Store
 .DS_Store?
 ._*
+.AppleDouble
+.LSOverride
 .Spotlight-V100
 .Trashes
-
-# macOS volume info
 .VolumeIcon.icns
-
-# macOS Finder settings
 .fseventsd
+Icon?
 
+# Logs
+logs/
+*.log
 
-# Python virtual environment
-.venv/
+# Database
+*.db
+*.sqlite3
 
-# IDE settings
-.idea
-
-# Environment variables file
-.env
-*.env
-.*.env
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
