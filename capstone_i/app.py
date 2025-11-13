@@ -1,7 +1,7 @@
 import streamlit as st
 from utils.logger_helper import get_logger
-from capstone_i.utils.tools.agent import MODEL, run_agent_conversation
-from capstone_i.utils.db_helper import ask_database
+from utils.tools.agent import MODEL, run_agent_conversation
+from utils.db_helper import ask_database
 
 
 logger = get_logger("genai_capstone_app")

@@ -2,9 +2,9 @@ import json
 import os
 from openai import OpenAI
 from dotenv import find_dotenv, load_dotenv
-from capstone_i.utils.logger_helper import get_logger
-from capstone_i.utils.db_helper import ask_database
-from capstone_i.utils.github_helper import create_support_ticket
+from ..logger_helper import get_logger
+from ..db_helper import ask_database
+from ..github_helper import create_support_ticket
 
 logger = get_logger("agent")
 env_file = find_dotenv()
