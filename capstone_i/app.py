@@ -84,8 +84,13 @@ if prompt := st.chat_input("Type your message..."):
     with st.chat_message("user"):
         st.markdown(prompt)
 
+    # Show assistant reply with container to avoid "ghost" messages
     with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
-            reply = run_agent_conversation(st.session_state.messages)
+        with st.container():
+            with st.spinner("Thinking..."):
+                reply = run_agent_conversation(st.session_state.messages)
+
             st.markdown(reply)
+            # Append to chat history *after* rendering to avoid flicker/duplication
             st.session_state.messages.append({"role": "assistant", "content": reply})
+
