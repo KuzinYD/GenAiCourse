@@ -73,7 +73,7 @@ A Streamlit application that demonstrates a complete voice-to-image generation p
    - Enhance the description into a detailed prompt
    - Generate an image based on the prompt
 3. **View Results**: See your transcription, enhanced prompt, and generated image
-   ![Usage](/docs/images/usage-2.png)
+   ![Usage](/docs/images/usage-2.jpeg)
 
 ## Technical Details
 
