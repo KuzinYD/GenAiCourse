@@ -73,6 +73,7 @@ A Streamlit application that demonstrates a complete voice-to-image generation p
    - Enhance the description into a detailed prompt
    - Generate an image based on the prompt
 3. **View Results**: See your transcription, enhanced prompt, and generated image
+   ![Usage](/docs/images/usage-2.png)
 
 ## Technical Details
 
@@ -80,6 +81,7 @@ A Streamlit application that demonstrates a complete voice-to-image generation p
 - **Model Pipeline**: ASR → Text Enhancement → Image Generation
 - **Audio Encoding**: Converts audio to MP3 at 128kbps for optimal processing
 - **Logging**: Comprehensive logging for debugging and monitoring
+   ![Logging-2](/docs/images/logging-2.png)
 
 ## Environment Variables
 
