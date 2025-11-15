@@ -78,6 +78,7 @@ A Streamlit application that demonstrates a complete voice-to-image generation p
 - **Audio Encoding**: Converts audio to MP3 at 128kbps for optimal processing
 - **Logging**: Comprehensive logging for debugging and monitoring
 
+
 ## Environment Variables
 
 | Variable         | Description                         | Example                   |
