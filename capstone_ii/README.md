@@ -1,5 +1,8 @@
-# Voice-to-Image Generation App
+# 2-CapstoneProject 'Voice-to-Image Generation App'
 
+## App is reachable at https://gemini.somespace.space/ 
+- in case it is not ping me [**TG: @beansandsoup**](https://t.me/beansandsoup)
+  
 A Streamlit application that demonstrates a complete voice-to-image generation pipeline using Google Gemini models. This Capstone II project showcases the integration of multiple AI capabilities: Automatic Speech Recognition (ASR), text processing, and image generation.
 
 ## Features
