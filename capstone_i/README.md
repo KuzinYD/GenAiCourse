@@ -1,5 +1,7 @@
 # 1-CapstoneProject 'Chat With Data'
 
+## App is reachable at https://genai.somespace.space/ (in case it is not ping me iankuzin@gmail.com)
+
 A Streamlit-based AI chatbot application that allows users to interact with a wine database using natural language queries. The application uses OpenAI's API to interpret user questions and convert them into SQL queries to retrieve information about wines from different categories (Red, White, Rosé, and Sparkling wines).
 
 ## Features
